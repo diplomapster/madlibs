@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Epicodus Mad Libs</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Please fill in the blanks for a fun holiday story</h1>
+      <div>
+        <form id="christmasStory">
+
+          <div class="form-group">
+            <label for="person1">A name</label>
+            <input id="person1" class="form-control" type="text">
+          </div>
+
+          <div class="form-group">
+            <label for="person2">Another name</label>
+            <input id="person2" class="form-control" type="text">
+          </div>
+
+          <div class="form-group">
+            <label for="exclamation">An exclamation</label>
+            <input id="exclamation" class="form-control" type="text">
+          </div>
+
+          <div class="form-group">
+            <label for="verb">A verb in -ing form</label>
+            <input id="verb" class="form-control" type="text">
+          </div>
+
+          <div class="form-group">
+            <label for="demonym">A demonym</label>
+            <input id="demonym" class="form-control" type="text">
+          </div>
+
+          <div class="form-group">
+            <label for="adjective">An adjective</label>
+            <input id="adjective" class="form-control" type="text">
+          </div>
+
+          <button type="submit" class="btn btn-danger">Show me the story!</button>
+        </form>
+      </div>
+
+      <div id="story">
+        <h1>Once upon a Christmas</h1>
+        <p>Long ago in a magical land called Belgravia the ruler, <span class="person1"></span> found themselves all alone in their castle on Chrismas eve.
+          In their sorrow they vowed, "Never again shall the rulers of Belgravia be alone on Christmas!" and passed a royal declaration,
+          making it soverign law that all future rulers, upon accending the throne, would have until Christmas eve of that year to marry, or they would forefit the throne.</p>
+
+          <p>Years later, <span class="person2"></span> Belgravia's ruler-to-be was living in New York when they got a phone call telling them their father had died.
+          They were now the ruler!"<span class="exclamation"></span>" they said. "It is December 21st. I have 4 days to meet someone and get married!"</p>
+
+          <p>Later that same evening <span class="person2"></span> was <span class="verb"></span> in central park when they had a cinematic meet-cute with the most
+          amazing <span class="demonym"></span> they had ever met. "<span class="exclamation"></span>" they cried, "It is too complicated to explain but we must marry right away."</p>
+
+          <p>And they did. Everything worked out and that Christmas <span class="person2"></span> experienced the most <span class="adjective"></span> Christmas ever.</p>
+
+          <p>And they lived, it is to be presumed, happily ever after...
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
